@@ -5,7 +5,7 @@
   app.use(express.static("assets"));
 
   app.get("/", function (req, res) {
-    res.send("Hello world! Lala Seth is here!");
+    res.send("Welcome to electron react node starter");
   });
   let server = app.listen(3000, function () {
     console.log("Express server listening on port " + server.address().port);
