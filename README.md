@@ -1,75 +1,42 @@
-## Simple Electron React Boilerplate
+## Electron React Express Boilerplate
 
-This is a simple boilerplate to get up and running with Electron with React and Express.
+![cover](cover.png)
 
-### Install
+## Table of Contents
 
-#### Clone this repo
+- [Introduction](#introduction)
+- [Features](#features)
+- [Build Process](#build-process)
+- [Contributors](#contributors)
 
-```
-git clone https://github.com/emiz98/electron-react-express-boiler-starter.git
-```
+<br/>
 
-#### Install dependencies
+## Introduction
 
-```
-npm install
-```
+This is a boilerplate code for getting started with electron js with react js and node express server.
 
-or
+## Features
 
-```
-yarn
-```
+🚀 React & Electron together <br/>
+🚀 Run node server in the same time
 
-### Usage
+## Build Process
 
-#### Run the app
+- Clone or download the repo
+- Install dependencies using `npm install` or  `yarn`
+- Run app using `npm run start` or  `yarn start`
+- Build app (Automatic) `npm run package` or  `yarn package`
+- Build app (Manual) `npm run build` or  `yarn build`
+- Test the app using `npm run prod` or  `yarn prod`
+<br/>
 
-```
-npm run start
-```
+## Contributors
 
-or
+This project is brought to you by these awesome contributors.
 
-```
-yarn start
-```
-
-#### Build the app (automatic)
-
-```
-npm run package
-```
-
-or
-
-```
-yarn package
-```
-
-#### Build the app (manual)
-
-```
-npm run build
-```
-
-or
-
-```
-yarn build
-```
-
-#### Test the app (after `npm run build` || `yarn run build`)
-
-```
-npm run prod
-```
-
-```
-yarn prod
-```
-
-### Change app title
-
-Change the app title in the **webpack.build.config.js** and the **webpack.dev.config.js** files
+<div style="display:flex;align-items:center">
+    <img style="height:30px;border-radius:100%;margin-right:5px" src="https://avatars.githubusercontent.com/u/5550850?s=64&v=4"/>
+    <img style="height:30px;border-radius:100%;margin-right:5px" src="https://avatars.githubusercontent.com/u/64089619?v=4"/>
+    <img style="height:30px;border-radius:100%;margin-right:5px" src="https://avatars.githubusercontent.com/u/26943501?s=64&v=4"/>
+  
+</div>
